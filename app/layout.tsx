@@ -1,10 +1,14 @@
-import './globals.css'
+import "./globals.css";
 
 export const metadata = {
-  title: 'Job Application Tracker (Lite)'
-}
+  title: "Job Application Tracker (Lite)",
+};
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>
@@ -17,5 +21,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="container">{children}</main>
       </body>
     </html>
-  )
+  );
 }

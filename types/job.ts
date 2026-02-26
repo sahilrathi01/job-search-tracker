@@ -8,4 +8,5 @@ export type Job = {
     lat: number
     lon: number
   }
+  distanceKm: number
 }
